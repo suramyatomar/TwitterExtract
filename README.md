@@ -31,7 +31,11 @@ You need to have a Twitter Developer Account in order to use the API. Follow the
 
 The script is configured to accept the screenname of the user you want to export as a command line parameter. To run issue the following command:
 
-```python3 ExtractData.py
+```python3 ExtractData.py```
+
+The script will create CSV files for each user with the data. The files are named in the following format:
+- For each list subscribed or owned by the user a separate file is created containing all members of the list
+- A separate file is created for followers and following as well.
 
 ## License
 
